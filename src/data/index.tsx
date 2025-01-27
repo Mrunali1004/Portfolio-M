@@ -24,7 +24,6 @@ import wayOfShadows1 from "@/assets/images/way-of-shadows-1.png";
 import poppyWars1 from "@/assets/images/poppy-war-1.png";
 import inheritanceGames1 from "@/assets/images/inheritance-games-1.png";
 
-
 export const Projects = [
   {
     company: "Brainstation",
@@ -207,11 +206,11 @@ export const footerLinks = [
 ];
 
 export const books = [
-    atomicHabits,
-    mistborn1,
-    wayOfShadows1,
-    mistborn2,
-    poppyWars1,
-    mistborn3,
-    inheritanceGames1,
-  ];
+  atomicHabits,
+  mistborn1,
+  wayOfShadows1,
+  mistborn2,
+  poppyWars1,
+  mistborn3,
+  inheritanceGames1,
+];

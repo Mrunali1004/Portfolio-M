@@ -1,47 +1,35 @@
-import instockLandingPage from "@/assets/images/instock.png";
-import brainflixLandingPage from "@/assets/images/brainflix.png";
-import whiskerWatchLandingPage from "@/assets/images/whisker-watch-landingpage.png";
-import jennyImage from "@/assets/images/jenny.jpg";
-import mariaImage from "@/assets/images/maria.jpg";
-import zanabImage from "@/assets/images/zanab.jpeg";
-import brainstationImage from "@/assets/images/brainstation.png";
-import JavaScriptIcon from "@/assets/icons/square-js.svg";
-import Html5Icon from "@/assets/icons/html5.svg";
-import Css3Icon from "@/assets/icons/css3.svg";
-import ReactIcon from "@/assets/icons/react.svg";
-import GitHubIcon from "@/assets/icons/github.svg";
-import TailwindIcon from "@/assets/icons/tailwind.svg";
-import NextIcon from "@/assets/icons/next.svg";
-import NodeIcon from "@/assets/icons/node.svg";
-import MySqlIcon from "@/assets/icons/mysql.svg";
-import LinkedInIcon from "@/assets/icons/linkedin.svg";
-import EmailIcon from "@/assets/icons/email.svg";
-import atomicHabits from "@/assets/images/book-cover.png";
-import mistborn1 from "@/assets/images/mistborn-1.png";
-import mistborn2 from "@/assets/images/mistborn-2.png";
-import mistborn3 from "@/assets/images/mistborn-3.png";
-import wayOfShadows1 from "@/assets/images/way-of-shadows-1.png";
-import poppyWars1 from "@/assets/images/poppy-war-1.png";
-import inheritanceGames1 from "@/assets/images/inheritance-games-1.png";
+import instockLandingPage from "../assets/images/instock.png";
+import brainflixLandingPage from "../assets/images/brainflix.png";
+import jennyImage from "../assets/images/jenny.jpg";
+import mariaImage from "../assets/images/maria.jpg";
+import zanabImage from "../assets/images/zanab.jpeg";
+import brainstationImage from "../assets/images/brainstation.png";
+import JavaScriptIcon from "../assets/icons/square-js.svg";
+import TypeScriptIcon from "../assets/icons/square-ts.svg";
+import Html5Icon from "../assets/icons/html5.svg";
+import Css3Icon from "../assets/icons/css3.svg";
+import ReactIcon from "../assets/icons/react.svg";
+import GitHubIcon from "../assets/icons/github.svg";
+import TailwindIcon from "../assets/icons/tailwind.svg";
+import NextIcon from "../assets/icons/next.svg";
+import NodeIcon from "../assets/icons/node.svg";
+import MySqlIcon from "../assets/icons/mysql.svg";
+import PostgreSQLIcon from "../assets/icons/postgreSQL.svg";
+import PrismaIcon from "../assets/icons/prisma.svg";
+import DockerIcon from "../assets/icons/docker.svg";
+import AWSIcon from "../assets/icons/aws.svg";
+import FigmaIcon from "../assets/icons/figma.svg";
+import LinkedInIcon from "../assets/icons/linkedin.svg";
+import EmailIcon from "../assets/icons/email.svg";
+import atomicHabits from "../assets/images/book-cover.png";
+import mistborn1 from "../assets/images/mistborn-1.png";
+import mistborn2 from "../assets/images/mistborn-2.png";
+import mistborn3 from "../assets/images/mistborn-3.png";
+import wayOfShadows1 from "../assets/images/way-of-shadows-1.png";
+import poppyWars1 from "../assets/images/poppy-war-1.png";
+import inheritanceGames1 from "../assets/images/inheritance-games-1.png";
 
 export const Projects = [
-  {
-    company: "Brainstation",
-    year: "2024",
-    title: "WhiskerWatch",
-    results: [
-      {
-        title: "Tech Stack: React, Express, MySQL",
-      },
-      { title: "APIs: Google Maps, Firebase Auth" },
-      {
-        title: "Reconnecting lost pets and owners",
-      },
-    ],
-    link: "https://whiskerwatch.netlify.app/",
-    image: whiskerWatchLandingPage,
-    isDeployed: true,
-  },
   {
     company: "Brainstation",
     year: "2024",
@@ -103,6 +91,10 @@ export const toolbox = [
     iconType: JavaScriptIcon,
   },
   {
+    title: "TypeScript",
+    iconType: TypeScriptIcon,
+  },
+  {
     title: "HTML5",
     iconType: Html5Icon,
   },
@@ -113,6 +105,10 @@ export const toolbox = [
   {
     title: "Tailwind",
     iconType: TailwindIcon,
+  },
+  {
+    title: "Figma",
+    iconType: FigmaIcon,
   },
   {
     title: "React",
@@ -129,6 +125,22 @@ export const toolbox = [
   {
     title: "MySQL",
     iconType: MySqlIcon,
+  },
+  {
+    title: "PostgreSQL",
+    iconType: PostgreSQLIcon,
+  },
+  {
+    title: "Prisma",
+    iconType: PrismaIcon,
+  },
+  {
+    title: "Docker",
+    iconType: DockerIcon,
+  },
+  {
+    title: "AWS",
+    iconType: AWSIcon,
   },
   {
     title: "GitHub",

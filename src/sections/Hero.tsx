@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className="flex flex-col items-center animate-fade">
           <Image
             src={headshotImg}
-            alt="Emily Schur headshot"
+            alt="Mrunali Zalavadiya headshot"
             className="rounded-full size-[125px]"
           />
           <div className="bg-gray-950 border border-gray-800 mt-2 px-4 py-1.5 inline-flex items-center gap-3 rounded-full">

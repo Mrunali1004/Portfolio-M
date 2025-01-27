@@ -29,7 +29,7 @@ import wayOfShadows1 from "../assets/images/way-of-shadows-1.png";
 import poppyWars1 from "../assets/images/poppy-war-1.png";
 import inheritanceGames1 from "../assets/images/inheritance-games-1.png";
 
-export const Projects = [
+export const portfolioProjects = [
   {
     company: "Brainstation",
     year: "2024",

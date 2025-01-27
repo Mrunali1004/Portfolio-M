@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const TechIcon = () => {
+const TechIcon = ({ component }: { component: React.ElementType }) => {
+  const Component = component;
+
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Component className="size-10 fill-[url(#tech-icon-gradient)]" />
+      <svg className="size-0 absolute">
+        <linearGradient id="tech-icon-gradient">
+          <stop offset="0%" stopColor="rgb(52 211 153)" />
+          <stop offset="100%" stopColor="rgb(167 243 208)" />
+        </linearGradient>
+      </svg>
+    </>
+  );
+};
 
-export default TechIcon
+export default TechIcon;

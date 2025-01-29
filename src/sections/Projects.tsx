@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const Projects = () => {
   return (
-    <section className="pb-16 lg:py-24" id="projects">
+    <section id="projects">
       <div className="container relative">
         <SectionHeader
           title="Featured Projects"

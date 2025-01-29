@@ -55,12 +55,10 @@ export const About = () => {
             </p>
 
             <div className="pt-10">
-              <a
-                href={resume}
-                className="text-emerald-400 hover:text-emerald-600"
-                download="Mrunali_Zalavadiya_Resume.pdf"
-              >
-                Download My Resume 📄
+              <a href={resume} download="Mrunali_Zalavadiya_Resume.pdf">
+                <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 relative">
+                  <span>Download My Resume 📄</span>
+                </button>
               </a>
             </div>
           </div>

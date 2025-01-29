@@ -4,7 +4,7 @@ import Card from "@/components/Card";
 import CardHeader from "@/components/CardHeader";
 import SectionHeader from "@/components/SectionHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
-import { tech, toolbox } from "@/data";
+import { toolbox } from "@/data";
 
 const Skills = () => {
   return (
@@ -12,14 +12,13 @@ const Skills = () => {
       <div className="container">
         <SectionHeader title="Skills" subheader="" description="" />
         <div className="w-full h-20 flex justify-center items-center">
-          {tech.map((t, index) => (
             <div
-              key={index}
               className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-400 to-emerald-200 rounded-full py-1.5 cursor-grab active:cursor-grabbing"
             >
-              <span className="font-medium text-gray-950">{t.title}</span>
+              <span className="font-medium text-gray-950">Frontend | </span>
+              <span className="font-medium text-gray-950">Backend | </span>
+              <span className="font-medium text-gray-950">DevOps</span>
             </div>
-          ))}
         </div>
 
         <div className="pt-10">

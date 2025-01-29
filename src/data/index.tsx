@@ -1,4 +1,3 @@
-import instockLandingPage from "../assets/images/instock.png";
 import analahLandingPage from "../assets/images/analah.ai.png";
 import empoweredFuturesLandingPage from "../assets/images/Empowering Potential.png";
 import vickyImage from "../assets/images/Vicky.jpeg";
@@ -45,20 +44,7 @@ export const portfolioProjects = [
     ],
     link: "https://www.empoweredfutures.ca/",
     image: empoweredFuturesLandingPage,
-    isDeployed: false,
-  },
-  {
-    company: "Brainstation",
-    year: "2024",
-    title: "Instock",
-    results: [
-      { title: "Tech Stack: React, Express, MySQL" },
-      { title: "Developed collaboratively in a team" },
-      { title: "Agile Development, GitFlow, Jira" },
-    ],
-    link: "https://github.com/emilyjanedev/instock",
-    image: instockLandingPage,
-    isDeployed: false,
+    isDeployed: true,
   },
   {
     company: "ItCodeInfotech",
@@ -71,7 +57,7 @@ export const portfolioProjects = [
     ],
     link: "https://analah.ai/",
     image: analahLandingPage,
-    isDeployed: false,
+    isDeployed: true,
   },
 ];
 
@@ -162,21 +148,6 @@ export const toolbox = [
   {
     title: "GitHub",
     iconType: GitHubIcon,
-  },
-];
-
-export const tech = [
-  {
-    id: 0,
-    title: "Frontend",
-  },
-  {
-    id: 1,
-    title: "Back End",
-  },
-  {
-    id: 2,
-    title: "DevOps",
   },
 ];
 

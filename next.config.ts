@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const fileLoaderRule = config.module.rules.find((rule : any) =>
+    const fileLoaderRule = config.module.rules.find((rule: any) =>
       rule.test?.test?.(".svg")
     );
 
@@ -37,6 +37,15 @@ const nextConfig: NextConfig = {
             },
           },
         },
+      },
+      {
+        test: /\.pdf$/i,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "static/pdf/[name].[hash].[ext]",
+          },
+        },
       }
     );
 
@@ -45,7 +54,6 @@ const nextConfig: NextConfig = {
 
     return config;
   },
-
 };
 
 export default nextConfig;

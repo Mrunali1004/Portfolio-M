@@ -19,7 +19,7 @@ const CardHeader = ({
       <div className="inline-flex items-center gap-2">
         <h3 className="font-bold text-3xl">{title}</h3>
       </div>
-      <p className="text-sm lg:text-base max-w-xs text-white/80 mt-2">
+      <p className="text-sm lg:text-base max-w-xl text-white/80 mt-2">
         {description}
       </p>
     </div>

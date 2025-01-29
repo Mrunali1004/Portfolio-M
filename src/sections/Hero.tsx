@@ -5,7 +5,7 @@ import ArrowDown from "../assets/icons/arrow-down.svg";
 
 export const Hero = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-40 relative z-2">
+    <div className="pt-32 relative z-2">
       <div className="container">
         <div className="flex flex-col items-center animate-fade">
           <Image

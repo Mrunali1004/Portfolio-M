@@ -1,7 +1,8 @@
 import instockLandingPage from "../assets/images/instock.png";
-import brainflixLandingPage from "../assets/images/brainflix.png";
-import jennyImage from "../assets/images/jenny.jpg";
-import mariaImage from "../assets/images/maria.jpg";
+import analahLandingPage from "../assets/images/analah.ai.png";
+import empoweredFuturesLandingPage from "../assets/images/Empowering Potential.png";
+import vickyImage from "../assets/images/Vicky.jpeg";
+import chitraImage from "../assets/images/Chitra.jpeg";
 import zanabImage from "../assets/images/zanab.jpeg";
 import brainstationImage from "../assets/images/brainstation.png";
 import JavaScriptIcon from "../assets/icons/square-js.svg";
@@ -31,11 +32,27 @@ import inheritanceGames1 from "../assets/images/inheritance-games-1.png";
 
 export const portfolioProjects = [
   {
+    company: "Empowered Futures",
+    year: "2025",
+    title: "Maximizing Hope",
+    results: [
+      { title: "Built with Next.js, React, and Tailwind CSS" },
+      {
+        title:
+          "Developed A mentorship-focused platform to support young adults transitioning into adulthood",
+      },
+      { title: "Agile Development, GitFlow, Jira" },
+    ],
+    link: "https://www.empoweredfutures.ca/",
+    image: empoweredFuturesLandingPage,
+    isDeployed: false,
+  },
+  {
     company: "Brainstation",
     year: "2024",
     title: "Instock",
     results: [
-      { title: "Tech Stack: Reach, Express, MySQL" },
+      { title: "Tech Stack: React, Express, MySQL" },
       { title: "Developed collaboratively in a team" },
       { title: "Agile Development, GitFlow, Jira" },
     ],
@@ -44,43 +61,43 @@ export const portfolioProjects = [
     isDeployed: false,
   },
   {
-    company: "Brainstation",
-    year: "2024",
-    title: "Brainflix",
+    company: "ItCodeInfotech",
+    year: "2023",
+    title: "Fracassets",
     results: [
-      { title: "React, Express, REST API" },
-      { title: "Video sharing web app" },
-      { title: "Blob management with multer" },
+      { title: "Built with Next.js, React, and Tailwind CSS" },
+      { title: "Developed real estate & equity investment platform" },
+      { title: "Implemented REST APIs with Express.js" },
     ],
-    link: "https://github.com/emilyjanedev/emily-schur-brainflix",
-    image: brainflixLandingPage,
+    link: "https://analah.ai/",
+    image: analahLandingPage,
     isDeployed: false,
   },
 ];
 
 export const testimonials = [
   {
-    name: "Maria Jose Cilloniz",
+    name: "Chitra",
     position: "Software Engineer @ Brainstation",
-    text: "Emily is amazing at guiding teams. She has a talent for breaking down complicated tasks and fostering effective collaboration. When team members like myself needed support, she provided clear guidance and assistance, ensuring everyone stayed on track while maintaining a positive environment.",
-    avatar: mariaImage,
+    text: "I had the pleasure of working with Mrunali on a project during the Software Engineering Bootcamp, and I was consistently impressed by her expertise in React and dedication to ensuring every aspect of the project came together seamlessly. Her commitment to quality had a significant impact on our project's success. She genuinely cares about delivering a polished and well-structured product, and I highly recommend her.",
+    avatar: chitraImage,
   },
   {
-    name: "Jenny Kim",
+    name: "Vicky chu",
     position: "Full-Stack Developer @ Brainstation",
-    text: "Emily's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project.",
-    avatar: jennyImage,
+    text: "Mrunal's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project.",
+    avatar: vickyImage,
   },
   {
-    name: "Former Teacher",
+    name: "Teacher",
     position: "Educator @ Brainstation",
-    text: "Emily is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail.",
+    text: "Mrunali is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail.",
     avatar: brainstationImage,
   },
   {
     name: "Zanab Jafry Shah",
     position: "TA @ Brainstation",
-    text: "Emily's capstone project at BrainStation showcases her attention to detail & commitment to industry best practices. Her entire body of work showcases how Emily is always testing *herself* to take stock of her own knowledge. Emily would be an exemplary addition to any team that values stamina and rigour. ",
+    text: "Mrunali's capstone project at BrainStation showcases her attention to detail & commitment to industry best practices. Her entire body of work showcases how Emily is always testing *herself* to take stock of her own knowledge. Emily would be an exemplary addition to any team that values stamina and rigour. ",
     avatar: zanabImage,
   },
 ];
@@ -148,6 +165,21 @@ export const toolbox = [
   },
 ];
 
+export const tech = [
+  {
+    id: 0,
+    title: "Frontend",
+  },
+  {
+    id: 1,
+    title: "Back End",
+  },
+  {
+    id: 2,
+    title: "DevOps",
+  },
+];
+
 export const hobbies = [
   {
     title: "Cycling",
@@ -203,17 +235,17 @@ export const footerLinks = [
   {
     title: "LinkedIn",
     icon: <LinkedInIcon />,
-    href: "https://www.linkedin.com/in/emilyjschur/",
+    href: "https://www.linkedin.com/in/mrunali-zalavadiya",
   },
   {
     title: "GitHub",
     icon: <GitHubIcon />,
-    href: "https://github.com/emilyjanedev",
+    href: "https://github.com/Mrunali1004",
   },
   {
     title: "Email",
     icon: <EmailIcon />,
-    href: "mailto:ejschur@gmail.com",
+    href: "mailto:zalavadiyamrunali@gmail.com",
   },
 ];
 

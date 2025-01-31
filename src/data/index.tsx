@@ -2,8 +2,8 @@ import analahLandingPage from "../assets/images/analah.ai.png";
 import empoweredFuturesLandingPage from "../assets/images/Empowering Potential.png";
 import vickyImage from "../assets/images/Vicky.jpeg";
 import chitraImage from "../assets/images/Chitra.jpeg";
-import zanabImage from "../assets/images/zanab.jpeg";
-import brainstationImage from "../assets/images/brainstation.png";
+import kushalImage from "../assets/images/Kushal.jpeg";
+import brainstationImage from "../assets/images/Daniil.jpeg";
 import JavaScriptIcon from "../assets/icons/square-js.svg";
 import TypeScriptIcon from "../assets/icons/square-ts.svg";
 import Html5Icon from "../assets/icons/html5.svg";
@@ -63,8 +63,14 @@ export const portfolioProjects = [
 
 export const testimonials = [
   {
+    name: "Daniil Molodkov",
+    position: "Educator @ Brainstation",
+    text: "In my role as an educator I have witnessed Mrunali going through a challenging bootcamp program with commitment, persistence, and enthusiasm. She has consistently demonstrated quick learning, and application of the concepts, excelling in deliverables (90%+) and receiving high education team feedback. She has challenged herself for a capstone project learning a new tech stack and delivering a well-polished application. Mrunali would be an excellent addition to any team that requires a quick learner, passionate about the field and excited to grow her skills in a fostering environment.",
+    avatar: brainstationImage,
+  },
+  {
     name: "Chitra",
-    position: "Software Engineer @ Brainstation",
+    position: "Full-Stack Developer @ Brainstation",
     text: "I had the pleasure of working with Mrunali on a project during the Software Engineering Bootcamp, and I was consistently impressed by her expertise in React and dedication to ensuring every aspect of the project came together seamlessly. Her commitment to quality had a significant impact on our project's success. She genuinely cares about delivering a polished and well-structured product, and I highly recommend her.",
     avatar: chitraImage,
   },
@@ -75,16 +81,10 @@ export const testimonials = [
     avatar: vickyImage,
   },
   {
-    name: "Teacher",
-    position: "Educator @ Brainstation",
-    text: "Mrunali is a strong and confident developer who has demonstrated exceptional team leadership skills as well as great communication skills. She has the ability to jump into any new technical challenge and excel, with great attention to detail.",
-    avatar: brainstationImage,
-  },
-  {
-    name: "Zanab Jafry Shah",
-    position: "TA @ Brainstation",
-    text: "Mrunali's capstone project at BrainStation showcases her attention to detail & commitment to industry best practices. Her entire body of work showcases how Emily is always testing *herself* to take stock of her own knowledge. Emily would be an exemplary addition to any team that values stamina and rigour. ",
-    avatar: zanabImage,
+    name: "Kushal Rajyaguru",
+    position: "Sr. Front End Dev @IT Code Infotech @TimesPro",
+    text: "I had the pleasure of working alongside Mrunali during our time at ITCODE Infotech. I consistently witnessed her strong work ethic and problem-solving abilities. She has ability to collaborate with others and contribute positively to any team. Her professionalism and enthusiasm made a lasting impact, and I’m confident she will continue to excel in her career. ",
+    avatar: kushalImage,
   },
 ];
 

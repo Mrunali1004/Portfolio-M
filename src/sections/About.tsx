@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import { hobbies, books } from "@/data";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import resume from "../assets/pdf/resume.pdf";
 
 const interval = 2000;
 
@@ -55,7 +54,10 @@ export const About = () => {
             </p>
 
             <div className="pt-10">
-              <a href={resume} download="Mrunali_Zalavadiya_Resume.pdf">
+              <a
+                href="/pdf/Mrunali Zalavadiya.pdf"
+                download="Mrunali_Zalavadiya_Resume.pdf"
+              >
                 <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 relative">
                   <span>Download My Resume 📄</span>
                 </button>

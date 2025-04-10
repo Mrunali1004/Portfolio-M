@@ -1,7 +1,8 @@
 import analahLandingPage from "../assets/images/analah.ai.png";
 import empoweredFuturesLandingPage from "../assets/images/Empowering Potential.png";
-import vickyImage from "../assets/images/Vicky.jpeg";
+import FatemeImage from "../assets/images/Fateme.jpg";
 import chitraImage from "../assets/images/Chitra.jpeg";
+import AmberImage from "../assets/images/Amber.jpg";
 import kushalImage from "../assets/images/Kushal.jpeg";
 import brainstationImage from "../assets/images/Daniil.jpeg";
 import JavaScriptIcon from "../assets/icons/square-js.svg";
@@ -69,16 +70,23 @@ export const testimonials = [
     avatar: brainstationImage,
   },
   {
+    name: "Fateme Bagherzad",
+    position: "Software Developer @ Brainstation",
+    text: "During my time as a Teaching Assistant at BrainStation, I worked with Mrunali and was always impressed by her dedication and collaborative spirit. She approached the challenging bootcamp program with commitment and persistence, quickly grasping new concepts and applying them effectively. She consistently pushed herself to improve and delivered high-quality work. Her strong work ethic, enthusiasm for learning, and ability to collaborate made her a valuable presence in the cohort. I have no doubt she will thrive in any team that values growth and innovation.",
+    avatar: FatemeImage,
+  },
+  {
     name: "Chitra",
     position: "Full-Stack Developer @ Brainstation",
     text: "I had the pleasure of working with Mrunali on a project during the Software Engineering Bootcamp, and I was consistently impressed by her expertise in React and dedication to ensuring every aspect of the project came together seamlessly. Her commitment to quality had a significant impact on our project's success. She genuinely cares about delivering a polished and well-structured product, and I highly recommend her.",
     avatar: chitraImage,
   },
   {
-    name: "Vicky chu",
-    position: "Full-Stack Developer @ Brainstation",
-    text: "Mrunal's technical skills are impressive, and she consistently demonstrated a strong ability to solve problems efficiently and effectively. Beyond her coding skills, her communication, leadership, and collaboration abilities made her an invaluable part of our group project.",
-    avatar: vickyImage,
+    name: "Hongfan",
+    position:
+      "Backend and Cloud developer @ Bluwave-ai | Software Developer @ Brainstation",
+    text: "I had the pleasure of working with Mrunali on an Inventory Management System during our time at Brain Station, and she is one of the most skilled and reliable full-stack developers I’ve collaborated with. Her expertise in React and JavaScript, combined with her strong backend development skills, makes her a well-rounded and dependable engineer. Beyond her technical abilities, Mrunali is also a great problem solver who approaches challenges with a proactive and solution-oriented mindset. She communicates effectively, making collaboration seamless, and consistently delivers high-quality code. I highly recommend Mrunali—she would be a tremendous asset to any organization. ",
+    avatar: AmberImage,
   },
   {
     name: "Kushal Rajyaguru",
